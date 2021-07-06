@@ -17,11 +17,4 @@ public class RunningSum {
         }
         return nums;
     }
-
-    public static void main(String[] args) {
-        int nums[];
-        nums = new int[1];
-        System.out.println(nums);
-
-    }
 }
