@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /*
 Given an array nums. We define a running sum of an array as 
 runningSum[i] = sum(nums[0]…nums[i]).
@@ -16,5 +18,12 @@ public class RunningSum {
             nums[i] += nums[i - 1];
         }
         return nums;
+    }
+
+    public static void main(String args[]) {
+        RunningSum obj = new RunningSum();
+        int[] nums = { 1, 2, 3, 4 };
+        int[] testcase = obj.runningSum(nums);
+        System.out.println("Output: " + Arrays.toString(testcase));
     }
 }
