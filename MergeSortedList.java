@@ -1,7 +1,3 @@
-import java.util.List;
-import java.lang.Object;
-import java.util.*;
-
 public class MergeSortedList {
 
     private static class ListNode {
