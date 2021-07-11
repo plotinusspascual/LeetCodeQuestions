@@ -38,13 +38,15 @@ public class RmvDuplicates {
             l1.add(number);
         }
         sc.close();
-        System.out.print("LinkedList: ");
+        System.out.println("LinkedList: ");
         for (int i = 0; i < l1.size(); i++) {
             System.out.println(l1.get(i));
         }
     }
 
     public static void main(String[] args) {
-        getList();
+        RmvDuplicates test = new RmvDuplicates();
+        ListNode output = test.deleteDuplicates(getList(output));
+        System.out.println("output: " + getList);
     }
 }
